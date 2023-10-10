@@ -3,6 +3,9 @@
 <html lang="en">
 
   <head>
+    <script>
+      window.alert("HALO DI RESPON")
+    </script>
 <style>
     .col-md-12{
       background-color: white;
@@ -52,6 +55,10 @@
       color: aliceblue;
       padding: 15px;
     }
+
+    .contact{
+      padding-bottom: 10px;
+    }
     </style>
 
     <!-- Required meta tags -->
@@ -80,7 +87,7 @@
 
     <div class="container">
 
-      <a class="navbar-brand" href="#">MyTrav</a>
+      <a class="navbar-brand" href="#home">MyTrav</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -199,29 +206,28 @@
     <section id="contact">
       <div class="row">
         <div class="foto"><center><em><i>Contact Support Kami</i></em></center></div>
-        <center><div class="col-md-2"><img src="ig.jpeg" alt="" width="25px"> <em>@myrtrav</em></div></center>
-        <center><div class="col-md-2"><img src="wa.png" alt="" width="50px"> <em>01234567890</em></div></center>
+        <center><div class="col-md-2 contact"><img src="ig.jpeg" alt="" width="25px"> <em>@myrtrav</em></div></center>
+        <center><div class="col-md-2 contact"><img src="wa.png" alt="" width="50px"> <em>01234567890</em></div></center>
       </div>
     </section>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
 <!--  -->
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-body-secondary">&copy; MyTrav</p>
 
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-    </a>
-
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item custom-item"><a href="#home" class="nav-link-foot px-2 text-body-secondary custom-text">Home</a></li>
-      <li class="nav-item custom-item"><a href="#tentangkami" class="nav-link-foot px-2 text-body-secondary custom-text">About Us</a></li>
-      <li class="nav-item custom-item"><a href="#diskon" class="nav-link-foot px-2 text-body-secondary custom-text">Our Offer</a></li>
-      <li class="nav-item custom-item"><a href="#testimoni" class="nav-link-foot px-2 text-body-secondary custom-text">Testimoni</a></li>
+<div class="row" style="background-color: #A2FF86;">
+  
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#tentangkami" class="nav-link px-2 text-muted">Tentang Kami</a></li>
+      <li class="nav-item"><a href="#diskon" class="nav-link px-2 text-muted">Penawaran</a></li>
+      <li class="nav-item"><a href="#testimoni" class="nav-link px-2 text-muted">Testimoni</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact Support</a></li>
     </ul>
-  </footer>
+    <p class="text-center text-muted">&copy; MyTrav</p>
+
+</div>
 </div>  
  </body>
 </html>
